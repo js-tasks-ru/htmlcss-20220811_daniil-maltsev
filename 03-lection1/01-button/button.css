@@ -1,9 +1,4 @@
-@import '/assets/css/main.css';
 /* Стилизация кнопки */
-
-.container__button {
-    margin: 10px;
-}
 
 .button:hover:not([disabled]){
     cursor: pointer;
@@ -11,6 +6,7 @@
 
 .button:disabled {
     opacity: 0.5;
+    pointer-events: none
 }
 
 .button {
@@ -23,11 +19,9 @@
     text-decoration: none;
     outline:0;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-
-.button_size_normal {
     min-width: 182px;
     padding: 14px 20px 13px;
+    height: 48px;
 }
 
 /* Primary btn */
@@ -39,7 +33,7 @@
 }
 
 .button_primary:hover:not([disabled]) {
-    background: #2342C0;
+    background: var(--dark-blue);
 }
 
 /* Secondary btn */
@@ -51,7 +45,7 @@
 }
 
 .button_secondary:hover:not([disabled]) {
-    background: #5028C6;
+    background: var(--dark-purple);
 }
 
 /* Alternate btn */
