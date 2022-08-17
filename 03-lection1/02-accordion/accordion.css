@@ -1,14 +1,6 @@
 /* Стилизация аккордеона */
-.container {
-    padding: 20px;
-    max-width: 730px;
-}
-
 .accordion {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    max-width: 730px;
 }
 
 .accordion__summary::-webkit-details-marker,
