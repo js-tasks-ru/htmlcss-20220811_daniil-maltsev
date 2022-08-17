@@ -2,10 +2,18 @@
 <!-- Страница с кнопкой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
     </head>
     <body>
-
+        <div class="container">
+            <button class="button container__button button_primary button_size_normal">Primary</button>
+            <button class="button container__button button_primary button_size_normal" disabled>Primary</button>
+            <button class="button container__button button_secondary button_size_normal">Secondary</button>
+            <button class="button container__button button_secondary button_size_normal" disabled>Secondary</button>
+            <button class="button container__button button_alternate button_size_normal">Alternate</button>
+            <button class="button container__button button_alternate button_size_normal" disabled>Alternate</button>
+        </div>
     </body>
 </html>
