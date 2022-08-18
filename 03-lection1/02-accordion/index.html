@@ -2,17 +2,28 @@
 <!-- Страница с аккордеоном -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item
+                </summary>
+                <p class="accordion__content">
+                    Hidden content
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item
+                </summary>
+                <p class="accordion__content">
+                    Hidden content
+                </p>
+            </details>
+        </div>
     </body>
 </html>
