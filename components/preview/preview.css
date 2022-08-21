@@ -1,0 +1,13 @@
+.preview {
+    padding: 67px 0 204px;
+    background: #F9FAFC;
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.preview__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    gap: 30px;
+}

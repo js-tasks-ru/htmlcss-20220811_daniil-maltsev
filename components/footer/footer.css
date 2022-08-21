@@ -1,0 +1,27 @@
+.footer {
+    padding: 71px 0 136px;
+    background: var(--white);
+}
+
+.footer__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    color: var(--black);
+    text-align: center;
+}
+
+.footer__content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
+    /* Можно ли здесь указать маржины и макс ширину? Или лучше делать контейнер под этой делать? */
+    max-width: 640px;
+    margin: auto;
+}
