@@ -1,0 +1,67 @@
+.histogram {
+    padding: 16px 24px 24px;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.histogram__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.histogram__title {
+    margin: 0 0 6px;     /* Можно ли здесь ставить маржины? Если нет то где их можно скидывать? */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    opacity: 0.8;
+}
+
+.histogram__number {
+    margin: 0; /* Можно ли здесь ставить маржины? Если нет то где их можно скидывать? */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+.histogram__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: var(--blue);
+    text-decoration: none;
+    padding-top: 3px;
+}
+
+.histogram__content {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    height: 50px;
+    align-items: end;
+}
+
+.histogram__item {
+    background: var(--blue);
+    flex-grow: 1;
+    transition: .2s all;
+}
+
+.histogram__item:hover {
+    opacity: .7;
+    cursor: pointer;
+}
