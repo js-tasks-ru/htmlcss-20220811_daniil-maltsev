@@ -1,0 +1,25 @@
+.menu__list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.menu__item {
+    display: inline;
+}
+
+.menu__link {
+    padding: 0 12px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+}
+
+.menu__link_active,
+.menu__link:hover {
+    color: var(--black);
+}
