@@ -2,11 +2,25 @@
 <!-- Страница с модалкой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
         <title>Modal</title>
     </head>
     <body>
+        <button id="modal-open" class="button button_primary">Open modal</button>
+        <div class="modal" id="modal">
+            <div class="modal__background"></div>
+            <div class="modal__window">
+                <span id="modal-close" class="modal__close"></span>
+                <!-- Нужно ли использовать семантические теги далее? H2 и P? -->
+                <div class="modal__title">Modal title</div>
+                <div class="modal__content">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </div>
+            </div>
+        </div>
     </body>
     <script src="./index.js"></script> 
 </html>
