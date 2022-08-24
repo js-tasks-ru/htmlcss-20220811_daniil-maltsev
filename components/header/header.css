@@ -11,3 +11,14 @@
     line-height: 64px;
     color: var(--black);
 }
+
+.header_secondary {
+    padding: 24px 0;
+    background: transparent;
+}
+
+.header__inner {
+    display: grid;
+    grid-template: 1fr/ 1fr auto;
+    align-items: center;
+}

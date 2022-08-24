@@ -5,6 +5,11 @@
 @import '../../components/footer/footer.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
+@import '../../components/template/template.css';
+@import '../../components/menu/menu.css';
+@import '../../components/main/main.css';
+@import '../../components/element-preview/element-preview.css';
+@import '../../components/sidebar/sidebar.css';
 
 :root {
     --white: #ffffff;
@@ -29,4 +34,8 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
 }
