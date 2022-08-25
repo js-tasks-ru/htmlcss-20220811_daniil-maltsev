@@ -1,24 +1,11 @@
-@import '../../03-lection1/01-button/button.css';
-
 .modal {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    width: 100vh;
-    height: 100vh;
-    width: 100%;
     display: none;
-}
-
-.modal__background {
-    position: absolute;
-    background: #C4C4C4;
-    opacity: 0.5;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+    background: rgba(196, 196, 196, 0.5);
 }
 
 .modal__window {
