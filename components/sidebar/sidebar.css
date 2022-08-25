@@ -1,0 +1,35 @@
+.sidebar__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+    margin-bottom: 16px;
+}
+
+.sidebar__menu {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar__menu-item {
+    margin-bottom: 4px;
+}
+
+.sidebar__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    text-decoration: none;
+    transition: .2s color;
+}
+
+.sidebar__link_active,
+.sidebar__link:hover {
+    color: #D84910;
+}
