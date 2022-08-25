@@ -17,7 +17,7 @@
     background: transparent;
 }
 
-.header__inner {
+.header_secondary .header__inner{
     display: grid;
     grid-template: 1fr/ 1fr auto;
     align-items: center;

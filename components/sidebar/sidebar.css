@@ -8,17 +8,17 @@
     margin-bottom: 16px;
 }
 
-.sidebar-menu {
+.sidebar__menu {
     margin: 0;
     list-style: none;
     padding: 0;
 }
 
-.sidebar-menu__item {
+.sidebar__menu-item {
     margin-bottom: 4px;
 }
 
-.sidebar-menu__link {
+.sidebar__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -29,7 +29,7 @@
     transition: .2s color;
 }
 
-.sidebar-menu__link-active,
-.sidebar-menu__link:hover {
+.sidebar__link_active,
+.sidebar__link:hover {
     color: #D84910;
 }
