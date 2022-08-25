@@ -1,0 +1,70 @@
+.calendar {
+    box-sizing: border-box;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 28px 26px 32px;
+    max-width: 304px;
+}
+
+.calendar__wrapper {
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.calendar__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(7, 1fr);
+    text-align: center;
+    align-items: center;
+}
+
+.calendar__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.calendar__item {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    color: #334D6E;
+    max-height: 36px; /* Можно ли сделать ровные квадраты? */
+}
+
+.calendar__item:not(.calendar__item_day):hover {
+    cursor: pointer;
+}
+
+.calendar__item_day {
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #90A0B7;
+}
+
+.calendar__item_active {
+    background: var(--blue);
+    color: var(--white)
+}
+
+.calendar__item_beetwen,
+.calendar__item:not(.calendar__item_active, .calendar__item_day):hover {
+    background: rgba(160, 177, 245, 0.2)
+}
