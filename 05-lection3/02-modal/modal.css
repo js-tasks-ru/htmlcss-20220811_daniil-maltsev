@@ -44,25 +44,10 @@
     position: absolute;
     right: 15px;
     top: 15px;
+    width: 24px;
+    height: 24px;
 }
 
 .modal__close:hover {
     opacity: .8;
-}
-
-.modal__close:before,
-.modal__close:after {
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 9px;
-    background: var(--grey-4);
-}
-
-.modal__close:before {
-    transform: rotate(-45deg);
-}
-
-.modal__close:after {
-    transform: rotate(45deg);
 }

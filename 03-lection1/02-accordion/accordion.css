@@ -31,10 +31,24 @@
     color: var(--black);
     list-style: none;
     font-family: 'Inter';
+    position: relative;
 }
 
 .accordion__summary:hover {
     cursor: pointer;
+}
+
+.accordion__arrow {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .5s all;
+}
+
+.accordion__item[open] .accordion__arrow{
+    transform: rotate(180deg);
 }
 
 .accordion__content {
