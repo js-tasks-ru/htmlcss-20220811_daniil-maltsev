@@ -27,4 +27,8 @@
     .element-preview {
         padding: 32px 48px;
     }
+
+    .element-preview__image {
+        width: auto;
+    }
 }
