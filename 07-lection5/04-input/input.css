@@ -54,16 +54,16 @@
     border-radius: 8px;
 }
 
-.text-field__input_invalid ~ .text-field__icon_invalid {
+.text-field_success .text-field__icon {
     display: block;
 }
 
-.text-field__input_success ~ .text-field__icon_success {
+.text-field_invalid .text-field__icon {
     display: block;
 }
 
-.text-field__input_invalid,
-.text-field__input_invalid:focus {
+.text-field_invalid .text-field__input,
+.text-field_invalid .text-field__input:focus {
     border: 1px solid #F03D3E;
     box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
     border-radius: 8px;
