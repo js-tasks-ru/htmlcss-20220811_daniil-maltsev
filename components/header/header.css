@@ -1,5 +1,5 @@
 .header {
-    padding: 0px 16px 0px;
+    padding: 0px 16px 64px;
     background: var(--white);
 }
 
@@ -31,16 +31,13 @@
 
 
 @media (min-width: 768px) {
-    .menu {
-        display: block;
-    }
 
     .header__logo {
         text-align: left;
     }
 
     .header {
-        padding: 36px 0 0px;
+        padding: 36px 0 64px;
     }
 
     .header__title {

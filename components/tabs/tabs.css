@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.tabs input {
+.tabs__radio {
     position: absolute;
     outline: none;
     clip: rect(0,0,0,0);
@@ -14,9 +14,8 @@
 }
 
 .tabs__scroller{
-    padding-top: 64px;
     width: 100%;
-    background: white;
+    background: var(--white);
     margin-bottom: 67px;
     border-bottom: 1px solid var(--grey-2);
 }
