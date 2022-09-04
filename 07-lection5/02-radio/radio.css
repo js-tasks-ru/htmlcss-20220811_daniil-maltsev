@@ -43,7 +43,7 @@
     text-decoration: underline;
 }
 
-.radio__input:checked ~ .radio__state .radio__icon {
+.radio__icon {
     width: 18px;
     height: 18px;
     background: var(--blue);
@@ -52,6 +52,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: none;
+}
+
+.radio__input:checked ~ .radio__state .radio__icon {
+   display: block;
 }
 
 .radio__input:disabled ~ .radio__state .radio__label {
