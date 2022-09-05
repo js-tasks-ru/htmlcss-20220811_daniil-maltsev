@@ -54,16 +54,16 @@
     transform: scaleX(0);
 }
 
-#all-tab:checked ~ .container .tabs__content_all {
+#all-tab:checked ~ .tabs__content_all {
     display: flex;
     gap: 30px;
 }
 
-#complex-tab:checked ~ .container .tabs__content_complex {
+#complex-tab:checked ~ .tabs__content_complex {
     display: flex;
 }
 
-#simple-tab:checked ~ .container .tabs__content_simple {
+#simple-tab:checked ~ .tabs__content_simple {
     display: flex;
 }
 
