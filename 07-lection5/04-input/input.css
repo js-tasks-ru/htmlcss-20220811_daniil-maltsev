@@ -33,7 +33,7 @@
     color: var(--grey-4);
 }
 
-.text-field__icon {
+.icon {
     display: none;
     width: 24px;
     height: 24px;
@@ -42,11 +42,12 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.text-field__icon_invalid {
+
+.icon_invalid {
     color: var(--red);
 }
 
-.text-field__icon_success {
+.icon_success {
     color: #374FC7;
 }
 
@@ -63,11 +64,11 @@
     border-radius: 8px;
 }
 
-.text-field_success .text-field__icon {
+.text-field_success .icon_success {
     display: block;
 }
 
-.text-field_invalid .text-field__icon {
+.text-field_invalid .icon_invalid {
     display: block;
 }
 
