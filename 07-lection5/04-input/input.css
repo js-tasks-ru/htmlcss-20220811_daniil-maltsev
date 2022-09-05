@@ -42,12 +42,21 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.text-field__icon_invalid {
+    color: var(--red);
+}
+
+.text-field__icon_success {
+    color: #374FC7;
+}
+
 
 .text-field__input::placeholder {
     color: var(--grey-2)
 }
 
-.text-field__input:focus {
+.text-field__input:focus,
+.text-field_success .text-field__input {
     outline: none;
     border: 1px solid var(--blue);
     box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
