@@ -20,6 +20,13 @@
     position: relative;
 }
 
+.text-field__icon {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .text-field__input {
     background: var(--white);
     border: 1px solid var(--grey-2);
@@ -33,21 +40,11 @@
     color: var(--grey-4);
 }
 
-.icon {
-    display: none;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    right: 18px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.icon_invalid {
+.text-field__icon_invalid{
     color: var(--red);
 }
 
-.icon_success {
+.text-field__icon_success {
     color: #374FC7;
 }
 
