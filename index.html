@@ -11,44 +11,92 @@
     <body>
         <div class="page">
             <header class="header">
+                    <div class="container">
+                        <div class="header__inner">
+                        <div class="header__logo">
+                            <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="1" width="30" height="30" fill="#212429"/>
+                                <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                                <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                                </svg>
+                                
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#" class="menu__link menu__link_active">Components</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link ">About</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link ">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
                 <div class="container">
                     <h1 class="header__title">Reusable component library</h1>
                 </div>
             </header>
             <main class="preview">
-                <div class="container">
-                    <div class="preview__inner">
-                        <div class="card preview__card">
-                            <div class="card__header">
-                                <a href="#" class="card__link">
-                                <img src="./assets/images/histogram.png" alt="Preview" class="card__image">
-                                </a>
-                            </div>
-                            <div class="card__body">
-                                <h4 class="card__title">Histogram</h4>
-                            </div>
-                        </div>
-                        <div class="card preview__card">
-                            <div class="card__header">
-                                <a href="#" class="card__link">
-                                    <img src="./assets/images/skeleton.png" alt="Preview" class="card__image">
-                                </a>
-                            </div>
-                            <div class="card__body">
-                                <h4 class="card__title">Skeleton</h4>
-                            </div>
-                        </div>
-                        <div class="card preview__card">
-                            <div class="card__header">
-                                <a href="#" class="card__link">
-                                    <img src="./assets/images/histogram.png" alt="Preview" class="card__image">
-                                </a>
-                            </div>
-                            <div class="card__body">
-                                <h4 class="card__title">Histogram</h4>
-                            </div>
-                        </div>
+                <div class="tabs">
+                    <input type="radio" class="tabs__radio" name="tabs" id="all-tab" checked>
+                    <input type="radio" class="tabs__radio" name="tabs" id="complex-tab">
+                    <input type="radio" class="tabs__radio" name="tabs" id="simple-tab">
+                    
+                    <div class="tabs__scroller">
+                        <div class="container tabs__container">
+                        <label for="all-tab" class="tabs__label">All components</label>
+                        <label for="complex-tab" class="tabs__label">Complex</label>
+                        <label for="simple-tab" class="tabs__label">Simple</label>
                     </div>
+                    </div>
+                        
+                        <div class="tabs__content tabs__content_all container">
+                           
+                            <div class="card preview__card">
+                                <div class="card__header">
+                                    <a href="#" class="card__link">
+                                        <img src="./assets/images/skeleton.png" alt="Preview" class="card__image">
+                                    </a>
+                                </div>
+                                <div class="card__body">
+                                    <h4 class="card__title">Skeleton</h4>
+                                </div>
+                            </div>
+                            <div class="card preview__card">
+                                <div class="card__header">
+                                    <a href="#" class="card__link">
+                                    <img src="./assets/images/histogram.png" alt="Preview" class="card__image">
+                                    </a>
+                                </div>
+                                <div class="card__body">
+                                    <h4 class="card__title">Histogram</h4>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="tabs__content tabs__content_complex container">
+                            <div class="card preview__card">
+                                <div class="card__header">
+                                    <a href="#" class="card__link">
+                                    <img src="./assets/images/histogram.png" alt="Preview" class="card__image">
+                                    </a>
+                                </div>
+                                <div class="card__body">
+                                    <h4 class="card__title">Histogram</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs__content tabs__content_simple container">
+                            <div class="card preview__card">
+                                <div class="card__header">
+                                    <a href="#" class="card__link">
+                                        <img src="./assets/images/skeleton.png" alt="Preview" class="card__image">
+                                    </a>
+                                </div>
+                                <div class="card__body">
+                                    <h4 class="card__title">Skeleton</h4>
+                                </div>
+                            </div>
+                        </div>
+                   
                 </div>
             </main>
             <footer class="footer">
