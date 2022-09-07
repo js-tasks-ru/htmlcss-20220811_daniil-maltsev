@@ -36,3 +36,18 @@
 .card__link:hover {
     opacity: .8;
 }
+
+.card__header {
+    padding: 0 26px;
+    border-bottom: 1px solid var(--grey-2);
+}
+
+.card__body {
+    padding-top: 12px;
+}
+
+@media (min-width: 768px) {
+    .card__header {
+        border-bottom: none;
+    }
+}
