@@ -1,0 +1,84 @@
+.burger-menu-open {
+    cursor: pointer;
+}
+
+.burger-menu__logo {
+    margin-bottom: 36px;
+}
+
+.burger-menu__button {
+    width: auto;
+    height: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.burger-menu__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.burger-menu{
+    padding: 16px 16px 20px;
+    box-sizing: border-box;
+    background: var(--grey-1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    transform: translateX(-100%);
+    transition: 0.2s transform linear;
+}
+
+.burger-menu[data-open] {
+    transform: translateX(0);
+}
+
+.burger-menu__header {
+    display: flex;
+    justify-content: center;
+}
+
+.burger-menu__label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.burger-menu__button_close {
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    background: var(--grey-2);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.burger-menu__toggler {
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+
+.burger-menu__separater {
+    border-top: 1px solid var(--grey-2);
+}
+
+.burger-menu__toggler .toggler__state {
+    justify-content: space-between;
+}
+
+.burger-menu__toggler .toggler__state,
+.burger-menu__toggler {
+    width: 100%;
+}
