@@ -1,4 +1,4 @@
-.burger-menu-open {
+.burger-menu__icon {
     cursor: pointer;
 }
 
@@ -64,21 +64,7 @@
     border-radius: 50px;
 }
 
-.burger-menu__toggler {
-    padding-top: 28px;
-    padding-bottom: 24px;
-}
-
 
 .burger-menu__separater {
     border-top: 1px solid var(--grey-2);
-}
-
-.burger-menu__toggler .toggler__state {
-    justify-content: space-between;
-}
-
-.burger-menu__toggler .toggler__state,
-.burger-menu__toggler {
-    width: 100%;
 }

@@ -1,0 +1,17 @@
+.theme-toggler {
+    padding-top: 28px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggler__label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}

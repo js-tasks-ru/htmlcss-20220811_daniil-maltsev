@@ -10,7 +10,7 @@
         <script defer src="./burger-menu.js"></script>
     </head>
     <body>
-        <button class="burger-menu__button">
+        <button class="button button_transparent">
         <svg id="burger-menu-open" class="burger-menu__icon">
             <use href="../../assets/icons/icons.svg#menu"></use>
         </svg>
@@ -31,10 +31,13 @@
                 </div>
             </div>
             <div class="burger-menu__separater"></div>
-                <label class="toggler burger-menu__toggler">
+            <div class="theme-toggler">
+                <div class="theme-toggler__label">
+                    Dark Mode
+                </div>
+                <label class="toggler">
                     <input type="checkbox" class="toggler__input">
                     <div class="toggler__state">
-                        <div class="toggler__label burger-menu__label">Dark mode</div>
                         <div class="toggler__control">
                             <div class="toggler__icon">
         
@@ -42,6 +45,7 @@
                         </div>
                     </div>
                 </label>
+            </div>
             <nav class="menu">
                 <div class="burger-menu__separater"></div>
                 <h4 class="menu__title">Elements</h4>

@@ -14,6 +14,7 @@
 @import '../../components/icon/icon.css';
 @import '../../components/tabs/tabs.css';
 @import '../../components/toggler/toggler.css';
+@import '../../components/theme-toggler/theme-toggler.css';
 
 :root {
     --white: #ffffff;
