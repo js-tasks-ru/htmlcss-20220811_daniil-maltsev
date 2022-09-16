@@ -59,3 +59,13 @@
 .button_alternate:hover:not([disabled]) {
     border: 1px solid var(--black);
 }
+
+/* Transparent */
+
+.button_transparent {
+    border: none;
+    background: none;
+    width: auto;
+    min-width: auto;
+    height: auto;
+}
